@@ -1,0 +1,119 @@
+* {  
+    margin: 0;
+    padding: 0;
+    color: #f5f6f6;
+}
+
+body {
+  background-color: #202020;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #252e39;
+    width: 100%;
+    height: 100px;
+    border-style: none;
+}
+
+.img1 {
+    width: 500px;
+    height: 80px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.titulo{
+    float:right;
+    font-size: 42px;
+    margin: 20px 15px;
+}
+
+.tema{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+article{
+    margin: 40px 200px;
+}
+
+.ingresar, .ingresar2{
+    float: left;
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input[name=palabra], input[name=palabra2]  {
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 45px;
+    width: 250px;
+    margin-top: 55px;;
+}
+
+.ingresar, input[name=palabra]{
+    background-color: #67b26b;
+}
+
+.ingresar2, input[name=palabra2]{
+    background-color: #b9203f;
+}
+
+input[name=traduccion], input[name=traduccion2] {
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 45px;
+    width: 250px;
+    margin-top: 55px;;
+}
+
+.resultado, .resultado2{
+    float: right;
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.resultado, input[name=traduccion]{
+    background-color: #4ca2cb;
+}
+
+.resultado2, input[name=traduccion2]{
+    background-color: #edb323;
+}
+
+input[name=traducir], input[name=traducir2] {
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 10px 39%;
+}
+
+input[name=traducir] {
+    background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+}
+
+input[name=traducir2] {
+    background: linear-gradient(to right, #b9203f, #edb323) !important;
+}
+
+.sugerencia{
+    align-content: center;
+    margin: 10px 39%;
+}
